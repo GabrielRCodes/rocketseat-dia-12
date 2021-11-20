@@ -1,0 +1,35 @@
+- git init = iniciando o git
+- ls -al .git = histórico do projeto
+- cat .git/config
+- git add .
+- git add <file>
+- git *.md = Adiciona todos(*) por *.<tipo>
+- git commit -m "commit"
+- git log = Mostra as logs (APERTAR Q OU Z PARA SAIR)
+- git log -n <número> = Mostrar os últimos <número> commits
+- git log --since=<data> = Mostrar os últimos commit desde <data>
+- git log --author=<author> = Mostrar os commits feitos por <author>
+- git log --grep="init" = Mostrar os logs que envolvam comandos <comando> nesse caso é o "init"
+- git clone = Puxar de outro diretório
+- git status = Mostra status do git
+- git rm <arquivo> = Remover arquivo
+- git rm --cached <arquivo>
+- git diff = Mostra várias alterações
+- git diff --staged
+- git diff --cached
+- git restore --staged <arquivo> = Restaurar arquivo do stage
+- git restore --staged . = Restaurar todos os arquivos do stage
+- git mv <nomeantigo> <nomenovo> = Renomear arquivo
+- git mv <arquivo> /<pasta>/<arquivo> = Mover arquivo
+- git restore <arquivo> = Restaurar arquivo
+- git commit --amend -m "<mensagem>" = CORRIGIR COMMIT DO ÚLTIMO ARQUIVO (MUDA A HASH SHA-1)
+- git checkout = ? Ver depois ?
+- git clean -n = ?
+- git clean -f = ?
+- git revert HEAD~5 = REVERTENDO COMMIT
+- git diff --color-words
+- git commit -am "<commit>"
+- git show <HASH-INITIAL>
+- git show <HASH-INITIAL> -- (src/views/*) => <diretório>
+
+ARQUIVO .gitignore serve para remover arquivos ou diretórios que não vão para o upload no repositório.

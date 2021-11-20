@@ -1,0 +1,39 @@
+Criando repositório e upando
+
+git init
+git add . (ADICIONA TODOS OS ARQUIVOS PASTA)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GabrielRCodes/rocketseat-dia-07.git
+git push -u origin main
+
+Upando em repositório já existente
+
+git add .
+git remote add origin https://github.com/GabrielRCodes/rocketseat-dia-07.git
+git branch -M main
+git push -u origin main
+
+PARA SAIR DO COMANDO GIT(MASTER): rm -rf .git
+
+REMOVER COMANDO DO GIT: git config --global --unset-all <comando>
+LISTA DE COMANDOS GIT COM CAMINHOS DE ORIGEM: git config --list --show-origin
+
+ERROS QUE OCORRERAM:
+
+- Não estar logado "usar.name" e "user.email" no git config --global
+
+- Problema com key SSH, teve que ser gerada uma key SSH para utilizar o git no dispositivo.
+
+- Comandos usados terminal:
+	- ssh-keygen
+	- cat /home/gabrielrcodes/.ssh/id_rsa.pub
+
+Pegar key
+Acessar perfil github
+Ir até settings
+Ir até SSH and GPG keys
+Clicar no botão NEW SSH KEY
+Colocar nome da key ssh e colocar a key do terminal
+
+VIDEO: https://www.youtube.com/watch?v=lV5mrUYsucU
